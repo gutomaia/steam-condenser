@@ -19,7 +19,7 @@ require_once 'PHPUnit/Framework.php';
  * @package    steam-condenser
  * @subpackage tests
  */
-class SteamCommunityTests extends PHPUnit_Framework_TestCase {
+class SteamCommunityTest extends PHPUnit_Framework_TestCase {
 
     public function testGroupByCustomUrl() {
         $group = new SteamGroup('valve');

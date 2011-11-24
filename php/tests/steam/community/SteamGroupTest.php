@@ -20,7 +20,7 @@ require_once 'PHPUnit/Framework.php';
  * @package    steam-condenser
  * @subpackage tests
  */
-class SteamGroupTests extends PHPUnit_Framework_TestCase {
+class SteamGroupTest extends PHPUnit_Framework_TestCase {
 
     public function testBypassCache() {
         SteamGroup::clearCache();

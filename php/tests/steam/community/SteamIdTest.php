@@ -19,7 +19,7 @@ require_once 'PHPUnit/Framework.php';
  * @package    steam-condenser
  * @subpackage tests
  */
-class SteamIdTests extends PHPUnit_Framework_TestCase {
+class SteamIdTest extends PHPUnit_Framework_TestCase {
 
     public function testBypassCache() {
         SteamId::clearCache();
